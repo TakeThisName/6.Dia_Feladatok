@@ -11,12 +11,15 @@ public class masodik {
 			float szamok[] = new float[a];
 			float osszeg = 0;
 			
+			
 			for (int i = 0; i < szamok.length; i++) {
 				System.out.println((i+1)+") Adj egy számot");
 				szamok[i] = beolvas.nextFloat();
 				osszeg = osszeg + szamok[i];
 			}
+			float atlag = osszeg / a;
 			System.out.println("Az összeg: "+osszeg);
+			System.out.println("Az átlag: "+atlag);
 			
 		} catch (Exception e) {
 			System.out.println(e);
