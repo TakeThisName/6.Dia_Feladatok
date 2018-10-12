@@ -19,7 +19,7 @@ public class masodik {
 			}
 			float atlag = osszeg / a;
 			System.out.println("Az összeg: "+osszeg);
-			System.out.println("Az átlag: "+atlag);
+			System.out.println("Az átlag: "+atlag); // harmadik feladattal kitoldva
 			
 		} catch (Exception e) {
 			System.out.println(e);
